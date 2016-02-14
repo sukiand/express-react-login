@@ -34,7 +34,7 @@ app
   .use(compress())
   .use(favicon())
   .use(logger('dev'))
-  .use(bodyParser())
+  .use(bodyParser.urlencoded({ extended: true  }))
   .use(methodOverride())
   .use(express.static(path.join(__dirname, 'public')))
   .use(routes.indexRouter);
