@@ -1,0 +1,21 @@
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+   padding: 1em;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+.ui.grid > .column {
+  vertical-align: middle;
+  align-self: center;
+
+}
+
+.column {
+  max-width: 450px;
+}
